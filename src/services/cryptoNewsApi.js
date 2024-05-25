@@ -1,5 +1,5 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-import "dotenv/config";
+
 const cryptoNewsHeaders = {
   "X-RapidAPI-Key": process.env.NEWS_KEY,
   "X-RapidAPI-Host": process.env.NEWS_HOST,
