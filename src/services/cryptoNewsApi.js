@@ -1,8 +1,8 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-
+import "dotenv/config";
 const cryptoNewsHeaders = {
-  "X-RapidAPI-Key": "b3269a27a0msh91152e930384439p1a07bdjsn4d03a8b7a402",
-  "X-RapidAPI-Host": "crypto-news-api5.p.rapidapi.com",
+  "X-RapidAPI-Key": process.env.NEWS_KEY,
+  "X-RapidAPI-Host": process.env.NEWS_HOST,
 };
 
 const createRequest = (url) => ({ url, headers: cryptoNewsHeaders });
@@ -10,7 +10,7 @@ const createRequest = (url) => ({ url, headers: cryptoNewsHeaders });
 export const cryptoNewsApi = createApi({
   reducerPath: "cryptoNewsApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "https://crypto-news-api5.p.rapidapi.com",
+    baseUrl: process.env.NEWS_URL,
   }),
   endpoints: (builder) => ({
     getCryptoNews: builder.query({
