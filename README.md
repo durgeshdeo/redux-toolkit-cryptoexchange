@@ -1,4 +1,4 @@
-A Project Using Rapid API for DATA of crypto currencies, News of Crypto, antdesign for designing, Redux-toolkit for state management, chartJS for diplaying charts, millify for diplaying large numbers
+A Project Using Rapid API for DATA of crypto currencies, News of Crypto, antdesign for designing, Redux-toolkit for state management, chartJS for diplaying charts, millify for displaying large numbers
 
 
 
