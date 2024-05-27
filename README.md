@@ -1,3 +1,7 @@
+A Project Using Rapid API for DATA of crypto currencies, News of Crypto, antdesign for designing, Redux-toolkit for state management, chartJS for diplaying charts, millify for diplaying large numbers
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
